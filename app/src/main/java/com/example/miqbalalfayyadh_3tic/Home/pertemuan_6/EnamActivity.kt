@@ -1,4 +1,4 @@
-package com.example.miqbalalfayyadh_3tic.pertemuan_6
+package com.example.miqbalalfayyadh_3tic.Home.pertemuan_6
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -9,7 +9,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.miqbalalfayyadh_3tic.R
 import com.example.miqbalalfayyadh_3tic.databinding.ActivityEnamBinding
-import com.example.miqbalalfayyadh_3tic.databinding.ActivityLimaBinding
 
 class EnamActivity : AppCompatActivity() {
     private lateinit var binding: ActivityEnamBinding
