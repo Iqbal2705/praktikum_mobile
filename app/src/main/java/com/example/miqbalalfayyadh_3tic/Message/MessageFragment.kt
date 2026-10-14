@@ -18,6 +18,7 @@ class MessageFragment : Fragment() {
     private var _binding: FragmentMessageBinding? = null
     private val binding get() = _binding!!
 
+    //data nya
     private val messageList = listOf(
         MessageModel("Alya", "Halo! Apa kabar?", "https://api.dicebear.com/7.x/bottts/png?seed=Alya&size=128"),
         MessageModel("Budi", "Sudah makan?", "https://api.dicebear.com/7.x/bottts/png?seed=Budi&size=128"),
