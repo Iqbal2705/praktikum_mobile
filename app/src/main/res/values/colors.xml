@@ -2,5 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#002FFFFF</color>
+    <color name="blue">#ADC8FF</color>
+    <color name="green">#D9FCB2</color>
+    <color name="yellow">#FEF4B3</color>
+    <color name="abu_gelap">#FEEAD1</color>
+    <color name="dot_selected">#FEB077</color>
 </resources>
