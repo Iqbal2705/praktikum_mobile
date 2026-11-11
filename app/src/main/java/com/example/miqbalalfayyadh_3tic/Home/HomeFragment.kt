@@ -10,6 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import com.example.miqbalalfayyadh_3tic.Home.Pertemuan9.NinthActivity
+import com.example.miqbalalfayyadh_3tic.Home.pertemuan_11.ElevenActivity
 import com.example.miqbalalfayyadh_3tic.Home.pertemuan_5.LimaActivity
 import com.example.miqbalalfayyadh_3tic.Home.pertemuan_6.EnamActivity
 import com.example.miqbalalfayyadh_3tic.LoginActivity
@@ -61,6 +62,13 @@ class HomeFragment : Fragment() {
         binding.btn9.setOnClickListener {
 
             val intent = Intent(requireContext(), NinthActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        binding.btn11.setOnClickListener {
+
+            val intent = Intent(requireContext(), ElevenActivity::class.java)
             startActivity(intent)
 
         }
